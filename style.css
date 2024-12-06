@@ -1,0 +1,145 @@
+header {
+  background-image: url('your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  padding: 60px 20px;
+}
+
+body {
+  font-family: 'PPNeueMontreal', sans-serif;;
+  line-height: 1.6;
+  background-color: #000000;
+  color: #333;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 20px;
+}
+
+
+h1 {
+  font-family: 'PPNeueMontreal', sans-serif;
+  text-align: center;
+  color: #b0edff;
+}
+
+p {
+  font-family: 'PPNeueMontreal', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  color: #b6dfff;
+}
+
+nav ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding: 0; /* Remove padding */
+  text-align: left; /* Align text to the left (optional) */
+  margin: auto; /* Center the navigation list */
+  max-width: 300px; /* Limit the width of the list */
+}
+
+nav ul li {
+  display: block; /* Stack list items vertically */
+  margin: 10px 0; /* Add spacing between list items */
+}
+
+nav ul li a {
+  font-family: 'PPNeueMontreal', sans-serif;
+  text-decoration: none;
+  color: #007BFF;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  display: block; /* Ensure the links take the full width of the list item */
+  text-align: center; /* Center the text within the button */
+}
+
+nav ul li a:hover {
+  background-color: #007BFF;
+  color: white;
+  border-color: #0056b3;
+}
+
+
+footer {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #007BFF;
+  color: rgb(0, 0, 0);
+  font-size: 0.9em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+@font-face {
+  font-family: 'PPNeueMontreal';
+  src: url('fonts/PPNeueMontreal-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.project-card h2 a {
+  color: #007BFF;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.project-card h2 a:hover {
+  color: #0056b3; /* Change color on hover */
+  text-decoration: underline; /* Optional */
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 自动适应屏幕大小 */
+  gap: 20px; /* 每个网格间的间距 */
+  margin: 20px auto;
+  max-width: 1200px; /* 最大宽度 */
+  padding: 10px;
+}
+.project-card {
+  background: #1a1a1a; /* 深色背景 */
+  border: 1px solid #333; /* 边框 */
+  border-radius: 10px; /* 圆角 */
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5); /* 投影效果 */
+  transition: transform 0.3s, box-shadow 0.3s; /* 动画效果 */
+  text-align: center;
+}
+
+.project-card:hover {
+  transform: translateY(-10px); /* 鼠标悬停时向上移动 */
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.8); /* 加深投影 */
+}
+
+.project-card h2 a {
+  font-family: 'PPNeueMontreal', sans-serif;
+  color: #b0edff; /* 蓝色标题 */
+  text-decoration: none;
+}
+
+.project-card h2 a:hover {
+  text-decoration: underline; /* 鼠标悬停时下划线 */
+}
+
+.project-card p {
+  font-family: 'PPNeueMontreal', sans-serif;
+  color: #b6dfff; /* 浅蓝色描述 */
+  font-size: 1em;
+}
+
+iframe {
+  border: none;
+  border-radius: 5px;
+  margin: 10px 0; /* 为每个 iframe 添加间距 */
+}
