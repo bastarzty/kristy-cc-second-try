@@ -1,0 +1,7 @@
+student name: kristy nong
+partners: kaori,olicia,ashita
+
+We were in a group chat and we posted our pics in there. And kaori helped us get the groups together. So I got kaori's head, my own body, and aisha's lower. 
+
+so i first creaet the head with two ellipse shape one with yellow and another white on the top to make this moon head. and I just wanted to be simple added the facial expression with curve and number3.
+And then i created the body part with rectangle as the shirt and a small one for the neck. For arms I made the left first with ellipses and rectangle in pink and for the right arm I just use to x,y location to mirrored over. 

@@ -1,0 +1,5 @@
+Reflection:
+I came out with about three initial ideas. So the first idea was about heart bumping along with human breathing rhythm. And the second one was about student fall into sleep at class, i wanted to create the effect of an eye close gradually 
+and once the mouse click/pressed you can wakes him up. And the last idea was this one about watering tree.
+I initially wanted to try the eye
+}

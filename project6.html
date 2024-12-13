@@ -5,15 +5,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project 6: Data Portrait</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
 </head>
+
+
 <body>
-  <h1>Project 6: Data Portrait</h1>
-  <p>This project we create a data portrait out of a personal habit of myself. The concept for this project originated from the need to creatively visualize my screen time data over a week. I wanted to explore a dynamic and engaging way to present the data while highlighting the uniqueness of each day. Inspired by the free-floating nature of bubbles, the idea was to represent each day's screen time as a bubble, with its size proportional to the time spent and its color signifying the day. </p>
+  <!-- Header -->
+  <header>
+    <h1>Project 6:</h1>
+    <a href="index.html" class="nav-link">Back to Home</a>
 
-  <!--  p5.js  -->
-  <iframe src="https://editor.p5js.org/nongh730/full/KpnKvASCH"></iframe> width="800" height="500" ></iframe>
+  </header>
 
+<body>
+  <h1>Data Portrait</h1>
+  <p>This project we create a data portrait out of a personal habit of myself. <br>The concept for this project originated from the need to creatively visualize my screen time data over a week. I wanted to explore a dynamic and engaging way to present the data while highlighting the uniqueness of each day. <br>Inspired by the free-floating nature of bubbles, the idea was to represent each day's screen time as a bubble, with its size proportional to the time spent and its color signifying the day.
 
-  <a href="index.html">Back to Home</a>
+    <br><br>And so I began by collecting my screen time data for seven consecutive days. The data was recorded in hours and minutes and later converted into minutes for easier scaling. Each day's data was paired with a unique color to distinguish it visually.
+    
+    <br><br>The initial sketches helped define the design, that each bubble would float freely on the canvas.And its size would correspond to the screen time for the day.Also i want the mouse interactions would include hover effects and click effects.
+    
+    <br><br>I created a Bubble class to manage each bubble’s properties, such as the position, size, color, day, and screen time and those actions like explosions. 
+    <br>Dynamic Animation: I added random speeds for the bubbles, ensuring that they moved freely and bounced back when hitting the canvas boundaries.<br>I try to added some interaction so the implementing mouse hover and click interactions made the visualization more engaging. Also I just ramdonly assigning colors i like to each day for added clarity and personality to the visualization.</p>
+  <script src=project6/sketch.js></script>
 </body>
 </html>
